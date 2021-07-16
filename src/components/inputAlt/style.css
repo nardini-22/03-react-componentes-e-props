@@ -1,0 +1,15 @@
+:root{
+  --gray: #a7a7a7
+}
+
+.inputAlt {
+    border: none;
+    color: var(--gray);
+    height: 25px;
+    width: 100%;
+    max-width: 335px;
+    text-align: right;
+    background: transparent;
+    opacity: 0.75;
+    margin: 5px;
+  }

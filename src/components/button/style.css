@@ -1,0 +1,86 @@
+:root {
+    --gray: #636363;
+    --gray-100: #444444;
+}
+
+.number, .op {
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    max-height: 60px;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.number {
+    background: var(--gray-100);
+    grid-area: teste;
+}
+.op {
+    background: var(--gray);
+    grid-area: phd;
+}
+
+.number:hover {
+    background: #5f5f5f
+}
+
+.op:hover{
+    background: #a09f9f;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.comma {
+    grid-area: comma;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.equal {
+    grid-area: equal;
+}
+
+.seven, .eight, .nine, .clear {
+    box-shadow: 
+    inset 0px 11px 8px -10px rgba(0,0,0,0.75),
+    inset 0px -11px 8px -10px transparent;
+}

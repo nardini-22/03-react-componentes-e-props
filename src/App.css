@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: Roboto, Arial;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 5px;
+  max-width: 350px;
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+
+}
+
+.calculatorBtn {
+  min-height: 240px;
+  display: grid;
+  grid-template-areas: 
+    "seven eight nine opContainer"
+    "four five six opContainer" 
+    "one two three opContainer" 
+    "zero comma equal opContainer"  
+  ;
+}
+
+.opContainer {
+  display: flex;
+  grid-area: opContainer;
+  flex-direction: column;
+  border-right: 10px solid #1de9b7;
+}
+
+.topPart {
+  border: 1.5px solid #b8b8b8;
+  border-bottom: none;
+  
+}
+

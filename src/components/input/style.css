@@ -1,0 +1,18 @@
+:root {
+  --gray: #a7a7a7
+}
+
+.input {
+    border: none;
+    box-sizing: border-box;
+    height: 50px;
+    max-height: 50px;
+    height: 100%;
+    width: 100%;
+    max-width: 340px;
+    text-align: right;
+    background: transparent;
+    color: var(--gray);
+    margin: 5px;
+    font-size: 40px;
+  }
