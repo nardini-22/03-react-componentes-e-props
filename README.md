@@ -1,5 +1,7 @@
 # 03-react-componentes-e-props
 
+**Project overview:**
+
 * O objetivo do projeto era desenvolver uma calculadora usando somente ReactJS e CSS
 * Esse projeto apresenta funções similares ao outro projeto da calculadora apresentado;
 * Porém desta vez, a UI se assemelha a UI da calculadora do sistema Android;
